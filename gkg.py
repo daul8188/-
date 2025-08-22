@@ -23,5 +23,5 @@ choice_data = {
 if st.button('특징 생성'):
     if choice in choice_data:
         특징 = choice_data[choice]['특징']
-       
+       st.write(f"{name}님! 당신의 원픽 특징은 {choice}입니다!")
    

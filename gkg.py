@@ -23,12 +23,5 @@ choice_data = {
 if st.button('특징 생성'):
     if choice in mbti_data:
         특징 = choice_data[mbti]['특징']
-        직업 = choice_data[mbti]['직업']
-        잘_맞는_mbti = ', '.join(mbti_data[mbti]['잘 맞는 MBTI'])
-
-        st.write(f"{name}님! 당신의 MBTI 유형은 {mbti}입니다!")
-        st.write(f"**특징**: {특징}")
-        st.write(f"**어울리는 직업**: {직업}")
-        st.write(f"**잘 맞는 MBTI 유형**: {잘_맞는_mbti}")
-    else:
-        st.write(f"{name}님! 아직 {mbti} 유형에 대한 정보가 없습니다.")
+       
+   

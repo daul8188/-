@@ -21,7 +21,7 @@ choice_data = {
   }
 }
 if st.button('특징 생성'):
-    if choice in mbti_data:
-        특징 = choice_data[mbti]['특징']
+    if choice in choice_data:
+        특징 = choice_data[choice]['특징']
        
    
